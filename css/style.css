@@ -3,5 +3,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
 
+#navbar-logo {
+    width: 55% !important;
+    height: 80% !important;
+    max-height: none;
 }
