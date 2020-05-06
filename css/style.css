@@ -10,3 +10,9 @@
     height: 80% !important;
     max-height: none;
 }
+
+#about-picture {
+    width: 65% !important;
+    height: 65% !important;
+    max-height: none;
+}
