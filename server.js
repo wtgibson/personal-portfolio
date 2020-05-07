@@ -19,10 +19,10 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "./public/views/index.html"));
 });
 
-// // Landing page
-// app.get("*", (req, res) => {
-//     res.sendFile(path.join(__dirname, "./public/views/index.html"))
-// });
+// Landing page
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "./public/views/index.html"))
+});
 
 // Technologist page
 app.get("/technologist", (req, res) => {

@@ -5,7 +5,7 @@
 The purpose of the assignment was to create an updated portfolio site showcasing several assignments and projects (along with deployed page and Github repo links) developed throughout the program.
 
 ## Site Pictures
-![Site](images/personal-portfolio.png)
+![Site](public/assets/images/personal-portfolio.png)
 
 ## Technologies Used
 - HTML - used to create elements on the DOM
@@ -20,19 +20,26 @@ Below is an example of a block of HTML code leveraging the Bulma framework and i
 
 ```html
 <article class="tile box is-child notification is-light">
-    <p class="title has-text-dark">GameBoard</p>
+
+    <p class="title has-text-dark">JobKit</p>
+
     <figure class="image is-4by3">
-    <a href="https://popsizzle.github.io/API-Group-Project/" target="_blank"><img src="images/gameboard.png" class="box"></a>
+        <a href="https://job-kit.herokuapp.com/" target="_blank"><img src="assets/images/jobkit-2.png" class="box"></a>
     </figure>
+
     <br>
+
     <p class="subtitle has-text-dark is-invisible">Description</p>
+
     <br>
-    <a href="https://github.com/PopSizzle/API-Group-Project" target="_blank" class="button">
+
+    <a href="https://github.com/wtgibson/job-kit" target="_blank" class="button">
     <span class="icon">
         <i class="fab fa-github"></i>
     </span>
     <span>GitHub</span>
     </a>
+
 </article>
 ```
 
@@ -42,7 +49,7 @@ Below is an example of a block of HTML code leveraging the Bulma framework and i
 
 ## Author Links
 
-![Site](images/william-gibson-jr-photo.jpg)
+![Site](public/assets/images/william-gibson-jr-photo.jpg)
 
 Will Gibson
 
