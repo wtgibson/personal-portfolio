@@ -11,6 +11,8 @@ The purpose of the assignment was to create an updated portfolio site showcasing
 - HTML - used to create elements on the DOM
 - CSS - styles HTML elements on page
 - Bulma - CSS framework directed at responsive, mobile first front-end web development
+- Node.js - asynchronous event-driven JavaScript runtime
+- Express - Node.js web application server framework, designed for building web applications
 - Git - version control system to track changes to source code
 - GitHub - hosts repository that can be deployed to GitHub Pages
 
@@ -43,7 +45,7 @@ Below is an example of a block of HTML code leveraging the Bulma framework and i
 </article>
 ```
 
-[Deployed Portfolio Page Site](https://wtgibson.github.io/personal-portfolio/)
+[Deployed Portfolio Page Site](http://willgibson.herokuapp.com/)
 
 [GitHub Project Repo](https://github.com/wtgibson/personal-portfolio)
 
