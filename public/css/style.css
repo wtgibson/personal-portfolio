@@ -10,6 +10,7 @@
     width: 55% !important;
     height: 80% !important;
     max-height: none;
+    padding-top: 5px;
 }
 
 #about-picture {
@@ -19,4 +20,14 @@
 }
 center {
     margin: auto;
+}
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+  
+.Site-content {
+    flex: 1;
 }
