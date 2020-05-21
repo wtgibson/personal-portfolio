@@ -29,15 +29,15 @@ app.get("/technologist", (req, res) => {
     res.sendFile(path.join(__dirname, "./public/views/technologist.html"));
 });
 
-// // Entrepreneur page
-// app.get("/entrepreneur", (req, res) => {
-//     res.sendFile(path.join(__dirname, "./public/views/entrepreneur.html"));
-// });
+// Entrepreneur page
+app.get("/entrepreneur", (req, res) => {
+    res.sendFile(path.join(__dirname, "./public/views/entrepreneur.html"));
+});
 
-// // Investor page
-// app.get("/investor", (req, res) => {
-//     res.sendFile(path.join(__dirname, "./public/views/investor.html"));
-// });
+// Investor page
+app.get("/investor", (req, res) => {
+    res.sendFile(path.join(__dirname, "./public/views/investor.html"));
+});
 
 // About page
 app.get("/about", (req, res) => {
